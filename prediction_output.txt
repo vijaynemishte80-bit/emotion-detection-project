@@ -1,0 +1,72 @@
+Input Text:
+i am so happy to see you!
+
+Predicted Emotion: JOY
+
+Prediction Confidence per Emotion:
+ Emotion  Probability
+    fear     0.935661
+ neutral     0.044154
+ disgust     0.011590
+surprise     0.005332
+     joy     0.003182
+ sadness     0.000070
+   anger     0.000011
+
+Top Words Influencing Prediction (TF-IDF): am so, see you, happy to, so happy, to see
+
+--------------------------------------------------
+Input Text:
+i feel scared walking alon at night
+
+Predicted Emotion: FEAR
+
+Prediction Confidence per Emotion:
+ Emotion  Probability
+   anger 9.999888e-01
+ neutral 4.851636e-06
+    fear 2.867489e-06
+ disgust 1.926848e-06
+surprise 1.452305e-06
+     joy 8.326597e-08
+ sadness 4.318233e-08
+
+Top Words Influencing Prediction (TF-IDF): walking, scared, night, feel, at
+
+--------------------------------------------------
+Input Text:
+Wow! i did not expect that!
+
+Predicted Emotion: SURPRISE
+
+Prediction Confidence per Emotion:
+ Emotion  Probability
+ neutral     0.992022
+    fear     0.003275
+surprise     0.002810
+ disgust     0.001818
+ sadness     0.000055
+     joy     0.000018
+   anger     0.000002
+
+Top Words Influencing Prediction (TF-IDF): did not, expect, wow, did, not
+
+--------------------------------------------------
+Input Text:
+i lost my wallet, i am so sad
+
+Predicted Emotion: SADNESS
+
+Prediction Confidence per Emotion:
+ Emotion  Probability
+surprise 9.999991e-01
+    fear 4.629381e-07
+ disgust 2.651720e-07
+     joy 6.034701e-08
+ neutral 5.428785e-08
+   anger 1.116662e-08
+ sadness 9.716789e-10
+
+Top Words Influencing Prediction (TF-IDF): so sad, am so, lost, sad, am
+
+--------------------------------------------------
